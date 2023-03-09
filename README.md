@@ -8,3 +8,5 @@ Menurut saya, pendekatan ini kurang efektiv, oleh karena itu, saya mendesain for
 
 Formulir berdiri sendiri sebagai sebuah formulir object, sementara view dibantu oleh fragment hanya merepresentasikan object formulir tersebut.
 Pattern model view intent, juga membuat kita lebih fleksible untuk merepresentasikan FormItem ke view, dan menjamin source of truth dari formulir.
+
+Support untuk menghandle Regex secara flawless masi saya pikirkan. Form rule nantinya akan sepenuhnya menggunakan regex sebagai mekanisme validasi.
