@@ -5,12 +5,11 @@
  */
 package com.singularity_code.formvalidation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import com.singularity_code.formvalidation.core.pattern.Form
 import com.singularity_code.formvalidation.core.pattern.FormItem
-import com.singularity_code.formvalidation.core.pattern.FormRule
 import com.singularity_code.formvalidation.core.util.*
 import com.singularity_code.formvalidation.databinding.ActivityMainBinding
 
@@ -19,16 +18,16 @@ class MainActivity : AppCompatActivity() {
 
     /** # 1. Initiate Forms **/
     private val form: Form by lazy {
-        Form.Create().apply {
+        form("user_data").apply {
 
             /** Form Items **/
             addItem(
-                FormItem<FORM_USER_NAME_TYPE>(
+                formItem<FORM_USER_NAME_TYPE>(
                     FORM_USER_NAME
                 )
             )
             addItem(
-                FormItem<FORM_AGE_TYPE>(
+                formItem<FORM_AGE_TYPE>(
                     FORM_AGE
                 )
             )
@@ -99,7 +98,7 @@ class MainActivity : AppCompatActivity() {
             if (it.isNullOrBlank()) {
                 binding.age.setText("0")
                 binding.age.setSelection(1)
-            }else if(it.first() == "0".first() && it.length > 1) {
+            } else if (it.first() == "0".first() && it.length > 1) {
                 binding.age.setText(it.substring(1))
                 binding.age.setSelection(1)
             } else {

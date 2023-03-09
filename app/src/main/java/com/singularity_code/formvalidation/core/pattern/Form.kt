@@ -10,11 +10,7 @@ import com.singularity_code.formvalidation.core.util.*
 
 interface Form {
 
-    companion object {
-        fun Create(): Form {
-            return FormImpl()
-        }
-    }
+    val id: String
 
     val formItems: Map<ID, FormItem<*>>
     val formRules: Map<ID, List<FormRule<*>>>
