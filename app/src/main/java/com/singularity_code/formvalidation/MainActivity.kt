@@ -11,10 +11,7 @@ import androidx.core.widget.addTextChangedListener
 import com.singularity_code.formvalidation.core.pattern.Form
 import com.singularity_code.formvalidation.core.pattern.FormItem
 import com.singularity_code.formvalidation.core.pattern.FormRule
-import com.singularity_code.formvalidation.core.util.FORM_AGE
-import com.singularity_code.formvalidation.core.util.FORM_AGE_TYPE
-import com.singularity_code.formvalidation.core.util.FORM_USER_NAME
-import com.singularity_code.formvalidation.core.util.FORM_USER_NAME_TYPE
+import com.singularity_code.formvalidation.core.util.*
 import com.singularity_code.formvalidation.databinding.ActivityMainBinding
 
 
@@ -39,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             /** Form Rules **/
             addRule<FORM_USER_NAME_TYPE>(
                 FORM_USER_NAME,
-                FormRule(
+                formRule(
                     errorMessage = "Cannot be blank",
                 ) { value ->
                     value.isNotBlank()
@@ -47,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             )
             addRule<FORM_USER_NAME_TYPE>(
                 FORM_USER_NAME,
-                FormRule(
+                formRule(
                     errorMessage = "Cannot contain @",
                 ) { value ->
                     !value.contains("@")
@@ -55,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             )
             addRule<FORM_AGE_TYPE>(
                 FORM_AGE,
-                FormRule(
+                formRule(
                     errorMessage = "Cannot be under 18"
                 ) { value ->
                     value >= 18
