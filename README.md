@@ -88,3 +88,4 @@ Contoh pengaplikasian:
 Incomming :
 - Easy integration with input view
 - Regex optimization
+- Support for jetpack compose
