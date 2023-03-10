@@ -3,7 +3,7 @@
  * [mail](stefanus.ayudha@gmail.com)
  * [github](https://github.com/stefanusayudha)
  */
-package com.singularity_code.formvalidation.core.util
+package com.singularity_code.form.util
 
 typealias ID = String
 

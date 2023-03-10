@@ -3,9 +3,9 @@
  * [mail](stefanus.ayudha@gmail.com)
  * [github](https://github.com/stefanusayudha)
  */
-package com.singularity_code.formvalidation.core.util
+package com.singularity_code.form.util
 
-import com.singularity_code.formvalidation.core.pattern.FormItem
+import com.singularity_code.form.pattern.FormItem
 
 
 class FormItemImpl<T>(

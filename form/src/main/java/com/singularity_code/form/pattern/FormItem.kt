@@ -3,9 +3,9 @@
  * [mail](stefanus.ayudha@gmail.com)
  * [github](https://github.com/stefanusayudha)
  */
-package com.singularity_code.formvalidation.core.pattern
+package com.singularity_code.form.pattern
 
-import com.singularity_code.formvalidation.core.util.ValidationStatus
+import com.singularity_code.form.util.ValidationStatus
 
 interface FormItem<T> {
     /** ID item for serialization **/

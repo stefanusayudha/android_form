@@ -8,9 +8,8 @@ package com.singularity_code.formvalidation
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
-import com.singularity_code.formvalidation.core.pattern.Form
-import com.singularity_code.formvalidation.core.pattern.FormItem
-import com.singularity_code.formvalidation.core.util.*
+import com.singularity_code.form.pattern.*
+import com.singularity_code.form.util.*
 import com.singularity_code.formvalidation.databinding.ActivityMainBinding
 
 

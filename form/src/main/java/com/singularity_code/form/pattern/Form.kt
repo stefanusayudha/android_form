@@ -3,10 +3,10 @@
  * [mail](stefanus.ayudha@gmail.com)
  * [github](https://github.com/stefanusayudha)
  */
-package com.singularity_code.formvalidation.core.pattern
+package com.singularity_code.form.pattern
 
 import arrow.core.foldLeft
-import com.singularity_code.formvalidation.core.util.*
+import com.singularity_code.form.util.*
 
 interface Form {
 
