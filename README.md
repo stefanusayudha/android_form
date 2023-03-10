@@ -23,7 +23,7 @@ dependencies {
 Contoh pengaplikasian:
 
 ```
-    1. Initiate Forms
+    1. Initiate Forms. Dalam kondisi default, form value adalah Unset
     
     private val form: Form by lazy {
         form("user_data").apply {
@@ -77,4 +77,9 @@ Contoh pengaplikasian:
             onFormInValid()
         }
     }
+    
+    4. Build to submit form
+    
+    val formResult: Map<String, ValidationStatus<*>> = form.build()
+    
 ```
