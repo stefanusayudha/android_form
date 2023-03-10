@@ -1,4 +1,4 @@
-# ©2023 Stefanus Ayudha
+# Singularity Code Present
 
 Library untuk melakukan validasi formulir android.
 Formulir berupa Formulir object yang tidak terintegrasi pada view, hal ini memungkinkan pengaplikasian yang lebih fleksible.
