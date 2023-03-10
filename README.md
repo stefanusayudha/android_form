@@ -10,3 +10,20 @@ Formulir berdiri sendiri sebagai sebuah formulir object, sementara view dibantu 
 Pattern model view intent, juga membuat kita lebih fleksible untuk merepresentasikan FormItem ke view, dan menjamin source of truth dari formulir.
 
 Support untuk menghandle Regex secara flawless masi saya pikirkan. Form rule nantinya akan sepenuhnya menggunakan regex sebagai mekanisme validasi.
+
+Untuk menggunakan library ini tambahkan dalam build.gradle sebagai berikut:
+
+```
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+  
+dependencies {
+    implementation 'com.github.stefanusayudha:android_form_validation:1.0.0'
+}
+
+```
+
