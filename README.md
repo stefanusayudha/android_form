@@ -78,7 +78,8 @@ Contoh pengaplikasian:
         }
     }
     
-    4. Build to submit form
+    
+    4. Build form untuk mendapatkan Map ValidationStatus
     
     val formResult: Map<String, ValidationStatus<*>> = form.build()
     
