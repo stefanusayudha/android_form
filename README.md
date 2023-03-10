@@ -84,3 +84,7 @@ Contoh pengaplikasian:
     val formResult: Map<String, ValidationStatus<*>> = form.build()
     
 ```
+
+Incomming :
+- Easy integration with input view
+- Regex optimization
