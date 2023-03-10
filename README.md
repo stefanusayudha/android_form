@@ -22,7 +22,7 @@ allprojects {
 }
   
 dependencies {
-    implementation 'com.github.stefanusayudha:android_form_validation:1.0.0'
+    implementation 'com.github.stefanusayudha:android_form:1.0.0'
 }
 
 ```
