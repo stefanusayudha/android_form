@@ -19,5 +19,3 @@ dependencies {
 
 ```
 
-Note: Untuk saat ini belum berbasis pada regex, our chef still working on it.<br>
-Spoilers: Validasi berbasis regex memungkinkan kita untuk mengirimkan rules berupa pattern dari server. Sehingga kita bisa membuat form custom dengan rules yang dapat disesuaikan sewaktu-waktu.
