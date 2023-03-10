@@ -3,14 +3,14 @@
  * [mail](stefanus.ayudha@gmail.com)
  * [github](https://github.com/stefanusayudha)
  */
-package com.singularity_code.formvalidation
+package com.singularity_code.form
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import com.singularity_code.form.pattern.*
 import com.singularity_code.form.util.*
-import com.singularity_code.formvalidation.databinding.ActivityMainBinding
+import com.singularity_code.form.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {

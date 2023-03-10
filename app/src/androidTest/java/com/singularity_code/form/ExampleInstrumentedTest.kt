@@ -1,4 +1,4 @@
-package com.singularity_code.formvalidation
+package com.singularity_code.form
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.singularity_code.formvalidation", appContext.packageName)
+        assertEquals("com.singularity_code.form", appContext.packageName)
     }
 }

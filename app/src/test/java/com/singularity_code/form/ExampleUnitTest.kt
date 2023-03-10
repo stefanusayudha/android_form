@@ -1,4 +1,4 @@
-package com.singularity_code.formvalidation
+package com.singularity_code.form
 
 import org.junit.Test
 
